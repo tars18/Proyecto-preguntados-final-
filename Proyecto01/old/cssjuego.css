@@ -1,0 +1,161 @@
+h2{
+    padding-top: 5%;
+    text-align: center;
+    color: antiquewhite;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(archivos/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.preguntas{
+    margin: auto;
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    width: 50%;
+}
+
+.perdiste{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.msgtiempo{
+    padding-top: 5%;
+    color: rgb(255, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+}
+
+.gameover{
+    color: aquamarine;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 10px 10px #272323;
+    border-radius: 20px;
+    background-color: #03507c;
+    width: 25%;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.replay{
+    color: aquamarine;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+.incorrecta{
+    text-align: center;
+    color: aquamarine;
+    padding-top: 10%;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+.formularioinc{
+    margin: auto;
+    text-align: center;
+    padding-top: 1%;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    box-shadow: 10px 10px 10px #272323;
+    border-radius: 20px;
+    background-color: #35aef5;
+    width: 25%;
+    padding-bottom: 10px;
+}
+
+#progreso{
+    width: 600px;
+    height: 25px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+
+.botoncito{
+    padding-top: 15%;
+}
+
+.botoncito2{
+    padding-top: 1%;
+}
+
+.answer{
+    padding-top: 10%;
+    text-align: center;
+    color: antiquewhite;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif, bold;
+}
+
+.points{
+    text-align: center;
+    color: antiquewhite;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif, bold;
+}
+
+.formu{
+    background-color: #35aef5;
+    width: 70%;
+    padding: 20px;
+    box-shadow: 10px 10px 10px #272323;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.arriba{
+    width: 80%;
+    padding: 20px;
+    padding-top: 5%;
+    margin: auto;
+}
+
+.cajapreguntas{
+    background-color: #6ac8ff;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+
+.temp{
+    border: none;
+    background: #1a00ac;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    border-radius: 20px;
+}
+
+/* Botón */
+#boton {
+    text-align: center;
+    margin-top: 1em;
+}
+#save {
+    
+    background-color: #44bebe;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif, bold;
+    font-size: 1em;
+}
+/* SIN hover con iluminado raro */
+#save:hover {
+    background-color: #39dbce; /* mismo color que el normal */
+}
